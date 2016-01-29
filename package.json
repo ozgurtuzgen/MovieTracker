@@ -7,7 +7,8 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "live": "live-server",
-    "start": "concurrent \"npm run tsc:w\" \"npm run live\" "
+    "start": "concurrent \"npm run tsc:w\" \"npm run live\" ",
+    "test": "live-server --open=unit-tests.html"
   },
   "author": "ozgurtuzgen",
   "license": "ISC",
@@ -29,4 +30,3 @@
     "zone.js": "^0.5.10"
   }
 }
-
